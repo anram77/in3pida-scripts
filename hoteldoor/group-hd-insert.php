@@ -28,7 +28,8 @@ date_default_timezone_set('Europe/Rome');
  * - false = comportamento classico single-hotel
  * - true  = modalità multi-hotel
  */
-$multi = false;
+//Defaul a true, se false è identico a hd-insert.php - ! BISOGNEREBBE UNIFICARE I DUE FILE PRIMA O POI
+$multi = true;
 
 $logFile = __DIR__ . DIRECTORY_SEPARATOR . 'hd-report.txt';
 
